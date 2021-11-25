@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="DELETE">
+        <name>text</name>
+        <rest_message_function display_value="Default GET">93b7ccc62f223010d4045aab2799b631</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 11:51:59</sys_created_on>
+        <sys_id>d808c0ca2f223010d4045aab2799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text</sys_name>
+        <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_d808c0ca2f223010d4045aab2799b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:51:59</sys_updated_on>
+        <type>string</type>
+        <value>Hi! This is to test talking!</value>
+    </sys_rest_message_fn_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Test New App">666b532a2f913010d4045aab2799b6b4</application>
+        <file_path/>
+        <instance_id>1dfd770edb2b93886578f22ebf9619f0</instance_id>
+        <instance_name>dev67721</instance_name>
+        <name>sys_rest_message_fn_parameters_d808c0ca2f223010d4045aab2799b6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>text</name><rest_message_function display_value="Default GET">93b7ccc62f223010d4045aab2799b631</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-13 11:51:59</sys_created_on><sys_id>d808c0ca2f223010d4045aab2799b6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text</sys_name><sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package><sys_policy/><sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope><sys_update_name>sys_rest_message_fn_parameters_d808c0ca2f223010d4045aab2799b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-13 11:51:59</sys_updated_on><type>string</type><value>Hi! This is to test talking!</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+        <payload_hash>2147200784</payload_hash>
+        <record_name>text</record_name>
+        <reverted_from/>
+        <source>7a6b532a2f913010d4045aab2799b6b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 11:51:59</sys_created_on>
+        <sys_id>d41804ca2f223010d4045aab2799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bdeffebc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:51:59</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>1c18800a172230102fd68967b22e27b0</update_guid>
+        <update_guid_history>1c18800a172230102fd68967b22e27b0:2147200784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 11:56:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_parameters">sys_rest_message_fn_parameters</sys_db_object>
+        <sys_id>5d33f443e5eb4a80b404551620e71000</sys_id>
+        <sys_metadata>d808c0ca2f223010d4045aab2799b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text</sys_name>
+        <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
+        <sys_scope_delete display_value="">8dbed4ad157e4da09c022b134c96e400</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_parameters_d808c0ca2f223010d4045aab2799b6ed</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_parameters_d808c0ca2f223010d4045aab2799b6ed">d41804ca2f223010d4045aab2799b6af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:56:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
