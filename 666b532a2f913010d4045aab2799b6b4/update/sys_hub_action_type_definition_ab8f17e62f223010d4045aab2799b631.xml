@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ab8f17e62f223010d4045aab2799b631</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>test action</sys_name>
         <sys_overrides/>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ab8f17e62f223010d4045aab2799b631</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-15 17:17:50</sys_updated_on>
+        <sys_updated_on>2021-11-25 12:01:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1081,7 +1081,7 @@
         <sys_created_on>2021-09-15 16:55:26</sys_created_on>
         <sys_id>b0b0ef2a2f223010d4045aab2799b6bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>email</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1105,7 +1105,7 @@
         <sys_created_on>2021-09-15 16:55:27</sys_created_on>
         <sys_id>01b0ef2a2f223010d4045aab2799b6e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>userDetails</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1128,7 +1128,7 @@
         <sys_created_on>2021-09-15 16:55:27</sys_created_on>
         <sys_id>41b0ef2a2f223010d4045aab2799b6ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1151,7 +1151,7 @@
         <sys_created_on>2021-09-15 16:55:27</sys_created_on>
         <sys_id>81b0ef2a2f223010d4045aab2799b6f3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1660,7 +1660,7 @@
         <sys_created_on>2021-09-15 16:55:33</sys_created_on>
         <sys_id>26b0236a2f223010d4045aab2799b6e8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>email</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1684,7 +1684,7 @@
         <sys_created_on>2021-09-15 16:55:34</sys_created_on>
         <sys_id>76b0236a2f223010d4045aab2799b6f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>userDetails</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1707,7 +1707,7 @@
         <sys_created_on>2021-09-15 16:55:34</sys_created_on>
         <sys_id>b6b0236a2f223010d4045aab2799b6fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
@@ -1730,7 +1730,7 @@
         <sys_created_on>2021-09-15 16:55:34</sys_created_on>
         <sys_id>f6b0636a2f223010d4045aab2799b602</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error</sys_name>
         <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
