@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>flowbackgroundscript11</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[var inputs={};
+
+inputs['email']='abel.tuter@example.com';
+//
+//
+var result = sn_fd.FlowAPI.getRunner()
+.action('x_610949_test_cicd.test_action')
+.inForeground()
+.withInputs(inputs)
+.quick()                  
+.run();
+
+gs.info(result.debug());
+
+var dateRun = result.getDate();
+var domainUsed = result.getDomainId();
+var flowName = result.getFlowObjectName();
+var outputs = result.getOutputs();
+var details = outputs['userDetails'];
+var status = outputs['status'];
+var error = outputs['error'];
+
+gs.info("dateRun: "+dateRun);
+gs.info("domainUsed: "+domainUsed);
+gs.info("flowName: "+flowName);
+gs.info("outputs: "+outputs);
+gs.info("status: "+status);
+gs.info("error: "+error);
+gs.info("details: "+details);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-15 17:31:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f7e8e7ee2f223010d4045aab2799b6de</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>flowbackgroundscript11</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test New App" source="x_610949_test_cicd">666b532a2f913010d4045aab2799b6b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test New App">666b532a2f913010d4045aab2799b6b4</sys_scope>
+        <sys_update_name>sys_script_f7e8e7ee2f223010d4045aab2799b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-28 11:11:09</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f7e8e7ee2f223010d4045aab2799b6de"/>
+</record_update>
