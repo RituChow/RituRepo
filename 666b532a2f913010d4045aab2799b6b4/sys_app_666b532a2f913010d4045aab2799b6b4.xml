@@ -30,14 +30,14 @@
         <sys_created_on>2021-07-15 13:13:51</sys_created_on>
         <sys_id>666b532a2f913010d4045aab2799b6b4</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>dev67721</sys_updated_by>
-        <sys_updated_on>2022-03-01 15:55:04</sys_updated_on>
+        <sys_updated_by>Basic_user</sys_updated_by>
+        <sys_updated_on>2022-03-01 14:56:33</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.6</version>
+        <version>1.0.3</version>
     </sys_app>
 </record_update>
